@@ -71,4 +71,40 @@
 
 ----
 **Simple Selector**
-- Name Tag => 
+- Name Tag => Example : h1{}
+- (*)  => select all .. of html.
+- Comma => select all element with same properties.
+- id => give element id property and identifiers then call this elements by #
+- class => give element class property and idntifiers then call this elements by .
+
+**Notes** ➡️ *identifiers*
+
+- start with letter only. ( a to z )
+- don't start with number or symbols. ( 1,2,3 .... , @ ,# , _ ....)
+- don't start with underscore.
+- styles => case type => kabab case
+
+**Case types**
+
+- String (lower case) = word word 
+Example : prodect id
+- String (upper case) = WORD WORD
+ ➡️ Example : PRODECT ID
+
+- Pascal Case = WordWord
+ ➡️ Example : ProdectId
+
+- Camel Case = WordWORD
+➡️ Example : prodectId
+
+- Kabab Case (lower case) = word-word
+➡️ Example : prodect-id
+
+- Kabab Case (Upper case) = WORD-WORD
+➡️ Example : PRODECT-ID
+
+- Snake Case (lower case) = word_word
+➡️ Example : prodect_id
+
+- Snake Case (Upper case) = word_word
+➡️ Example : PRODECT_ID

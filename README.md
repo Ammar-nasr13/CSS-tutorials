@@ -128,6 +128,7 @@ Example : prodect id
 3- **Pseudo Class Selector** <br>
 
   - ➡️ It means adding formats to the element in a specific state and this state is set using pseudo class.
+  - these class talk about => ( link - list - inputs - some class about general elements )
 
     
  | Pseudo-class          | Description                                                                 | Example                             |
@@ -191,3 +192,18 @@ Example : prodect id
 | `::part(name)`   | Styles a part of a shadow DOM component                   | `my-element::part(header)`          |
 | `::slotted()`    | Styles slotted elements in shadow DOM                     | `slot::slotted(span)`               |
 
+
+5- **Atrributs Selector**
+
+
+| Selector            | Description                                                                 | Example                               |
+|---------------------|-----------------------------------------------------------------------------|---------------------------------------|
+| `[attr]`                | Selects elements with the given attribute                                   | `input[required] { border: red; }`    |
+| `[attr="value"]`        | Selects elements with the attribute exactly equal to "value"                | `a[target="_blank"]`                  |
+| `[attr~="value"]`       | Selects elements where the attribute value contains the word "value"        | `[title~="flower"]`                   |
+|  [attr|="value"]          | Selects elements where the attribute value is exactly "value" OR starts with "value-" | `[lang|="en"]`            |
+| `[attr^="value"]`            | Selects elements where the attribute value **starts with** "value"          | `a[href^="https"]`                    |
+| `[attr$="value"]`           | Selects elements where the attribute value **ends with** "value"            | `a[href$=".pdf"]`                     |
+| `[attr*="value"]`           | Selects elements where the attribute value **contains** "value"             | `a[href*="google"]`                   |
+| `[attr operator value i]`   | Case-insensitive attribute selector (add `i` at the end)               | `a[href$=".PDF" i]`                   |
+| `[attr operator value s]`   | Case-sensitive attribute selector (add `s` at the end, default in some cases) | `[type="Text" s]`              |

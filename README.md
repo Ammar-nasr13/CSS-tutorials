@@ -2,9 +2,9 @@
 - Used to design Html and Xml elements .
 - CSS stands for Cascading Style Sheet .
 
-  | Cascading | Style | Sheet   |
+  | `Cascading` | `Style` | `Sheet`  |
   |:--------:|:-----:|:-----------:|
-  | It means that if we have more than one property applied to the element, the choice is left to the browser.   | Formats applied to CSS files  | Css Files    |
+  | `It means that if we have more than one property applied to the element, the choice is left to the browser.`   | `Formats applied to CSS files`  | `Css Files`    |
 
  ➡️ **The browser chooses which property to apply to the element based on:**
  - **Source code** => mean use ( **inline style** - **internal style** - **external style**)
@@ -31,6 +31,7 @@
 - inline style
 - internal style
 - external style
+- **Notes** ➡️ inline styles is the stronger style.
 
   ---
   
@@ -70,7 +71,7 @@
 - **Atrributs Selector**
 
 ----
-**Simple Selector**
+1- **Simple Selector**
 - Name Tag => Example : h1{}
 - (*)  => select all .. of html.
 - Comma => select all element with same properties.
@@ -79,7 +80,7 @@
 
 **Notes** ➡️ *identifiers*
 
-- start with letter only. ( a to z )
+- start with letter only. ( a to z - A to Z)
 - don't start with number or symbols. ( 1,2,3 .... , @ ,# , _ ....)
 - don't start with underscore.
 - styles => case type => kabab case
@@ -108,3 +109,85 @@ Example : prodect id
 
 - Snake Case (Upper case) = word_word
 ➡️ Example : PRODECT_ID
+
+**Diffrence between Class - Id**
+
+- you can give class and id property many identifiers and shouid put space between them and call class by any identifiers.
+- you can give many elements same identifiers in class property.
+- you can't give many elements same identifiers in Id property. so any element shouid have unique id.
+
+
+2- **Combinator Selector**
+
+- descendant selector = space  ➡️ select all children. 
+- child selector (>)  ➡️ select direct children.
+- adjacent sibling selector (+)  ➡️ select direct sibling (brother)
+- general sibling selector (~)   ➡️ select all sebling (brother)
+
+
+3- **Pseudo Class Selector** <br>
+
+  - ➡️ It means adding formats to the element in a specific state and this state is set using pseudo class.
+
+    
+ | Pseudo-class          | Description                                                                 | Example                             |
+|-----------------------|-----------------------------------------------------------------------------|-------------------------------------|
+| `:link`               | Unvisited links                                                            | `a:link { color: blue; }`           |
+| `:visited`            | Visited links                                                              | `a:visited { color: purple; }`      |
+| `:hover`              | When the user hovers over an element                                        | `button:hover { color: red; }`      |
+| `:active`             | Active element (e.g., while clicking)                                      | `a:active { color: green; }`        |
+| `:focus`              | Element in focus                                                           | `input:focus { border: 2px solid; }`|
+| `:first-child`        | First child of its parent                                                  | `p:first-child { color: red; }`     |
+| `:last-child`         | Last child of its parent                                                   | `p:last-child { color: blue; }`     |
+| `:nth-child(n)`       | Nth child of its parent                                                    | `li:nth-child(2)`                   |
+| `:nth-last-child(n)`  | Nth child counting from the end                                            | `li:nth-last-child(1)`              |
+| `:only-child`         | Element that is the only child                                             | `p:only-child { color: red; }`      |
+| `:first-of-type`      | First element of its type                                                  | `p:first-of-type { color: red; }`   |
+| `:last-of-type`       | Last element of its type                                                   | `p:last-of-type { color: red; }`    |
+| `:nth-of-type(n)`     | Nth element of its type                                                    | `p:nth-of-type(2)`                  |
+| `:nth-last-of-type(n)`| Nth element of its type counting from the end                              | `p:nth-last-of-type(1)`             |
+| `:only-of-type`       | Element that is the only one of its type                                   | `p:only-of-type { color: red; }`    |
+| `:empty`              | Elements with no children                                                  | `div:empty { display: none; }`      |
+| `:not(selector)`      | Elements not matching selector                                             | `p:not(.intro)`                     |
+| `:checked`            | Checked inputs (checkbox/radio)                                            | `input:checked`                     |
+| `:disabled`           | Disabled form elements                                                     | `input:disabled`                    |
+| `:enabled`            | Enabled form elements                                                      | `input:enabled`                     |
+| `:required`           | Inputs with `required`                                                     | `input:required`                    |
+| `:optional`           | Inputs without `required`                                                  | `input:optional`                    |
+| `:valid`              | Form elements with valid value                                             | `input:valid`                       |
+| `:invalid`            | Form elements with invalid value                                           | `input:invalid`                     |
+| `:in-range`           | Inputs within a specified range                                            | `input:in-range`                    |
+| `:out-of-range`       | Inputs outside a specified range                                           | `input:out-of-range`                |
+| `:read-only`          | Elements with `readonly`                                                   | `input:read-only`                   |
+| `:read-write`         | Editable elements                                                          | `input:read-write`                  |
+| `:target`             | Element targeted by a URL fragment (`#id`)                                 | `#section:target`                   |
+| `:root`               | Root element (`html`)                                                      | `:root { --main: red; }`            |
+| `:lang(lang)`         | Elements with specific language                                            | `p:lang(en)`                        |
+| `:scope`              | Reference point element in query selector                                  | `:scope > p`                        |
+| `:is()`               | Matches any selector in a list                                             | `p:is(.intro, .main)`               |
+| `:where()`            | Same as `:is()` but zero specificity                                       | `p:where(.intro, .main)`            |
+| `:has()`              | Matches elements that contain selector inside                             | `div:has(p)`                        |
+| `:any-link`           | Matches both `:link` and `:visited`                                       | `a:any-link`                        |
+| `:autofill`           | Inputs that are autofilled by the browser                                 | `input:autofill`                    |
+| `:placeholder-shown`  | Inputs showing placeholder text                                            | `input:placeholder-shown`           |
+| `:fullscreen`         | Element currently displayed fullscreen                                     | `video:fullscreen`                  |
+
+
+
+4- **Pseudo Elemnts Selector**
+
+| Pseudo-element   | Description                                               | Example                             |
+|------------------|-----------------------------------------------------------|-------------------------------------|
+| `::before`       | Inserts generated content before an element’s content     | `p::before { content: "Note: "; }`  |
+| `::after`        | Inserts generated content after an element’s content      | `p::after { content: " ✔"; }`       |
+| `::first-line`   | Styles the first line of a block                          | `p::first-line { color: blue; }`    |
+| `::first-letter` | Styles the first letter of a block                        | `p::first-letter { font-size: 2em; }` |
+| `::selection`    | Styles the part of an element selected by the user        | `p::selection { background: yellow; }` |
+| `::placeholder`  | Styles placeholder text of an input                       | `input::placeholder { color: gray; }` |
+| `::marker`       | Styles the marker (bullet/number) of list items           | `li::marker { color: red; }`        |
+| `::file-selector-button` | Styles the file upload button in input type="file"| `input::file-selector-button { color: green; }` |
+| `::cue`          | Styles WebVTT captions/subtitles in media elements        | `video::cue { color: white; }`      |
+| `::backdrop`     | Styles the backdrop of fullscreen or modal elements       | `dialog::backdrop { background: rgba(0,0,0,0.5); }` |
+| `::part(name)`   | Styles a part of a shadow DOM component                   | `my-element::part(header)`          |
+| `::slotted()`    | Styles slotted elements in shadow DOM                     | `slot::slotted(span)`               |
+

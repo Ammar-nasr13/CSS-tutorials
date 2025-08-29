@@ -207,3 +207,27 @@ Example : prodect id
 | `[attr*="value"]`           | Selects elements where the attribute value **contains** "value"             | `a[href*="google"]`                   |
 | `[attr operator value i]`   | Case-insensitive attribute selector (add `i` at the end)               | `a[href$=".PDF" i]`                   |
 | `[attr operator value s]`   | Case-sensitive attribute selector (add `s` at the end, default in some cases) | `[type="Text" s]`              |
+
+
+----
+
+## important keyword (global keyword)
+
+- ➡️ important keyword is keyword use to value of all elements in css .
+  
+- initial => this value return element to intial value => بترجع الخاصية للقيمة الافتراضية اللي مطورين اللغة وضعوها  .
+- inherit => this value inherit element value from parent.
+- unset => inhert - initial =>  If the property is inherited, it works as an inheritance property, and if the property is not inherited, it works as a initial        property.
+- revert => this value return element to intial value.=> اللي المتصفح عاطيها للخاصية
+-  **Notes** ➡️ all this value can used in property all to implement this property all properties of element.
+
+
+## what are inheritance in CSS ?
+
+- Mean children inhert parent some properties such as fontsize - fontweitgh - fontfimaly - width - color - .....
+- Elements which inside another elements call childern.
+
+
+## what are box model ?
+- any element exist in page have box model.
+- box model are (content - padding - margin - border - outline)

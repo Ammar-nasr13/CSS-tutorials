@@ -291,7 +291,21 @@ Example : prodect id
 
 *border-raduis*
 
-- Used to control the 4 cornersز
+- Used to control the 4 corners.
+- border-raduis-top-left
+- border-raduis-top-right
+- border-raduis-bottom-right
+- border-raduis-bottom-left
+- shorthand property => border-raduis <br>
+
+*border-image*
+
+- border-image-source=> url(path of image);
+- border-image-width => width of image in border
+- border-image-slice => It is used to cut the image from 4 directions. accept 4 value.
+- border-image-outset => Used to move the image out of the element. accept units.
+- border-image-repeat => Specifies how to duplicate or extend the side portions of the image. accept this value => ( stretch - repeat - round - space)
+- shorthand property => border-image=> accept 5 value => ( source - width - slice - outset - repeat )
   
   
 ➡️**margin**
@@ -315,3 +329,16 @@ Example : prodect id
 - concept => margin collapse => mean if you give element margin-bottom = 50 and you give another element margin-top = 30 => total margin between them = 50 .
 - if you want to put element in the middel on the page you can use => margin = auto;
 - margin accept negative value.
+
+**outline**
+
+- work in only 4 direction.
+- ouline-style
+- outline-width
+- outline-color
+- shorthand property => outline => accept 3 value.
+- outline-offset => Used to create spacing between the outline and the element itself.
+
+## block - inline - inlineblock - ( width - height - function - margin )
+
+**block**

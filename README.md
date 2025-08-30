@@ -455,3 +455,42 @@ Example : prodect id
 
 - 1vm = 1% form width screen  => Its value is calculated relative to the screen.
 - 1vh = 1% form height screen  => Its value is calculated relative to the screen.
+- fr	A fractional unit. 1fr equals 1 part of the available space.
+
+
+## Color in CSS.
+
+- color property used to text. <br>
+
+*value of color*
+
+- color Name => 140 color name.
+- A hexadecimal color is specified with: #RGB or #RRGGBB. => 0-9 or A-Z.
+- RGB(R , G , B) => 0 - 255
+- RGBA(R - G - B - alpha) => alpha => هي تعني الشفافية وقيمتها تتراوح من صفر الي واحد وكلما اقتربنا للصفر كلما كان العنصر اكثر شفافية
+- hsl(hue, saturation, lightness)
+- Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+- Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+- Lightness is also a percentage. 0% is black, 50% is neither light or dark, 100% is white
+- hsla(hue, saturation, lightness, alpha)
+
+➡️ **color keyword**
+
+- transparent, currentcolor, and inherit keywords.
+- The transparent keyword is used to make a color transparent. This is often used to make a transparent background color for an element.
+- The currentcolor keyword is like a variable that holds the current value of the color property of an element.
+- The inherit keyword specifies that a property should inherit its value from its parent element.
+
+
+➡️ **opacty**
+
+- The opacity property specifies the opacity/transparency of an element.
+- The opacity property can take a value from 0.0 - 1.0↩️
+- 0.0 - The element will be completely transparent.
+- 0.5 - The element will be 50% transparent.
+- 1.0 - Default. The element will be fully opaque.
+
+
+## background - gradients in CSS.
+
+**background**

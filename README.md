@@ -418,7 +418,15 @@ Example : prodect id
 - There are a set of values ​​that are used  with the width. ( min-content - max-contenet - fit-content )
 
 <br>
+
 *height*
 
 - min-height property => Specifies the minimum height that can be reached. max-height => open
 - max-height property => Specifies the maximum height that can be reached. min-height => open
+
+**Function**
+
+- calc() => هي تقبل قيمتين ويتم عمل عليهم عمليات حسابية لاخذ القيمة المناسبة
+- min()  => هل تقبل قيمتين ويتم اخذ القيمة الاصغر المناسبة للشاشة
+- max() => هي تقبل قيمتين ويتم اخذ القيمة الاكبر المناسبة للشاشة
+- clamp() => هي تقبل ثلاثه قيم القيمة الاولي هي تحدد الحد الادني والقيمة الثانية هي تحدد القيمة المفضلة والقيمة الثالثة هي تحدد الحد الاقصي

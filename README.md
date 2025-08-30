@@ -330,7 +330,7 @@ Example : prodect id
 - if you want to put element in the middel on the page you can use => margin = auto;
 - margin accept negative value.
 
-**outline**
+➡️ **outline**
 
 - work in only 4 direction.
 - ouline-style
@@ -341,4 +341,84 @@ Example : prodect id
 
 ## block - inline - inlineblock - ( width - height - function - margin )
 
-**block**
+ ➡️ **block**  <br>
+
+*width*
+
+- Default width => 100% parent.
+- width => respect => you can give block element width => px - %  <br>
+
+*height*
+
+- Default height => fit content
+- height => respect => you can give block element height => px - %
+- **Note** => if you give block element height with % you have problem. to solve this problem you must be give parent element height.<br>
+
+*new line*
+
+- block elements respect new line.<br>
+
+
+*margin*
+
+- block elements respect margin from all direction.<br>
+
+
+➡️ **inline**  <br>
+
+*width*
+
+- Default width => fit content.
+- width => don't respect => you can't give inline element width  <br>
+
+*height*
+
+- Default height => fit content
+- height => don't respect => you can't give inline element height.
+<br>
+
+*new line*
+
+- inline elements don't respect new line.<br>
+
+
+*margin*
+
+- inline elements respect margin  only from left and right direction.<br>
+
+
+➡️ **inline-block**  <br>
+
+*width*
+
+- Default width => fit content.
+- width => respect => you can give inline-block element width  <br>
+
+*height*
+
+- Default height => fit content
+- height =>  respect => you can give inline-block element height.
+<br>
+
+*new line*
+
+- inline-block elements respect new line.<br>
+
+
+*margin*
+
+- inline-block elements respect margin from all direction.<br>
+
+➡️ **Notes**  <br>
+
+*width*
+
+- min-width property => Specifies the minimum width that can be reached. max-width => open
+- max-width property => Specifies the maximum width that can be reached. min-width => open
+- There are a set of values ​​that are used  with the width. ( min-content - max-contenet - fit-content )
+
+<br>
+*height*
+
+- min-height property => Specifies the minimum height that can be reached. max-height => open
+- max-height property => Specifies the maximum height that can be reached. min-height => open

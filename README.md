@@ -231,3 +231,87 @@ Example : prodect id
 ## what are box model ?
 - any element exist in page have box model.
 - box model are (content - padding - margin - border - outline)
+
+➡️ **padding**
+
+- used to padding which sperated between content - border.
+- padding-left
+- padding-top
+- padding-right
+- padding-bottom
+- shorthand property => padding => accept 4 value .( padding-left - padding-top - padding-right - padding-bottom )<br><br>
+ ➡️*Notes*
+- padding-block-start => used to padding vertically ( y ) => top
+- padding-block-end =>  used to padding vertically ( y ) => bottom
+- shorthand property => padding-block => accept 2 value .
+- padding-inline-start => used to padding horizontally (x ) => left
+- padding-inline-end =>  used to padding horizontally ( x ) => right
+- shorthand property => padding-inline => accept 2 value .<br><br>
+ ➡️*Notes* <br>
+ - **what differance between padding , padding-block , padding-inline**.
+ - When using padding-block or padding-inline, this makes it flexible because it changes when you change the direction of the page writing, unlike padding, which requires manual adjustment.
+
+➡️ **border**
+
+- used to sperated between padding -margin.
+- border-style => ( solid - dotted - groove - double )
+- border-width => units
+- border-color => color
+- shorthand property => border => accept 3 value. work in 4 direction
+- if you used border in specific direction use ↩️<br>
+
+*left*
+
+- border-left-style
+- border-left-width
+- border-left-color
+- shorthand property => border-left => accept 3 value. <br>
+
+*top*
+
+- border-top-style
+- border-top-width
+- border-top-color
+- shorthand property => border-top => accept 3 value. <br>
+
+*right*
+
+- border-right-style
+- border-right-width
+- border-right-color
+- shorthand property => border-right => accept 3 value. <br>
+
+*bottom*
+
+- border-bottom-style
+- border-bottom-width
+- border-bottom-color
+- shorthand property => border-bottom => accept 3 value. <br>
+
+
+*border-raduis*
+
+- Used to control the 4 cornersز
+  
+  
+➡️**margin**
+
+- used to margin which sperated between element - another element.
+- margin-left
+- margin-top
+- margin-right
+- margin-bottom
+- shorthand property => margin => accept 4 value .( margin-left - margin-top - margin-right - margin-bottom )<br><br>
+ ➡️*Notes* <br>
+- margin-block-start => used to margin vertically ( y ) => top
+- margin-block-end =>  used to margin vertically ( y ) => bottom
+- shorthand property => margin-block => accept 2 value .
+- margin-inline-start => used to margin horizontally (x ) => left
+- margin-inline-end =>  used to margin horizontally ( x ) => right
+- shorthand property => margin-inline => accept 2 value . <br>
+
+➡️*Notes* <br>
+
+- concept => margin collapse => mean if you give element margin-bottom = 50 and you give another element margin-top = 30 => total margin between them = 50 .
+- if you want to put element in the middel on the page you can use => margin = auto;
+- margin accept negative value.

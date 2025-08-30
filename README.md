@@ -520,4 +520,29 @@ Example : prodect id
 - background-clip => The CSS background-clip property specifies the painting area of the background. هي تحدد اين سوف تنتهي او تقص صورة او لون خلفية العنصر
 - default value => padding-box => تعني ان الصورة سوف تنتهي  عند الهوامش الداخلية
 - content-box => تعني ان الصورة سوف تنتهي  عند الحافة الخارجية لمحتوي العنصر
-- content-box => تعني ان الصورة سوف تنتهي من عند الحافة الخارجية لمحتوي العنصر
+- content-box => تعني ان الصورة سوف تنتهي من عند الحافة الخارجية لمحتوي العنصر <br>
+
+**shorthand property background**
+
+- When using the shorthand property the order of the property values is:
+
+- background-color
+- background-image
+- background-position
+- background-size
+- background-repeat
+- background-origin
+- background-clip
+- background-attachment <br>
+
+  **multi background**
+
+- you can give many value to background property to multi backgroung using comma between them .
+- EX : background-image : url(path1) , url(path2);
+
+  ## Gradients in CSS
+
+  - mean => هي تدرج الالوان او دمج اكثر من لون في خلفية العنصر
+  - to gradient any elements using => background-image : Linear Gradients( ) or Radial Gradients( ) or Conic Gradients( ) . <br>
+
+  *Linear Gradients( )*

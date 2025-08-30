@@ -430,3 +430,28 @@ Example : prodect id
 - min()  => هل تقبل قيمتين ويتم اخذ القيمة الاصغر المناسبة للشاشة
 - max() => هي تقبل قيمتين ويتم اخذ القيمة الاكبر المناسبة للشاشة
 - clamp() => هي تقبل ثلاثه قيم القيمة الاولي هي تحدد الحد الادني والقيمة الثانية هي تحدد القيمة المفضلة والقيمة الثالثة هي تحدد الحد الاقصي
+
+**Units**
+
+- Units divided into ( absolute units - relative units )  <br>
+
+*absolute units*
+
+- there are many absolute units but important absolute units is px.  <br>
+
+
+
+*relative units*
+
+- They are units that are calculated relative to the parent.  <br>
+
+
+*Especially font size*
+
+- rem => Its value is calculated relative to root element.
+- em - % => Its value is calculated relative to parent. <br>
+
+*Especially width - height*
+
+- 1vm = 1% form width screen  => Its value is calculated relative to the screen.
+- 1vh = 1% form height screen  => Its value is calculated relative to the screen.

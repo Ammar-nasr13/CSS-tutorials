@@ -494,3 +494,30 @@ Example : prodect id
 ## background - gradients in CSS.
 
 **background**
+
+- backgroun-color => color value - color keyword
+- backgroun-image => url(path)
+- backgroun-repeat => default value is repeat  => repeat-x => repeat Horizontally  => repeat-y => repeat Vertically  (no-repeat)
+- backgroun-position => left top - left center - left bottom - top - center center - center bottom - right top - right center - right bottom.
+- background-size => The CSS background-size property allows you to specify the size of background images. <br>
+
+*Values*
+
+- defualt value => auto => هي تعني اظهار الصورة كما هي في الحقيقة
+- width - height => Example : background-size : 100px 200px;
+- cover => بتحاول انها تكون داخل العنصر باكمله فتقوم باعادة ضبط طولها وعرضها لكي يتناسب مع العنصر ولا تحافظ علي الابعاد الاساسية لها وهي الطول والعرض لان الهدف منها تغطية العنصر بالكامل  
+- contain => بتحاول انها تكون داخل العنصر باكمله فتقوم باعادة ضبط طولها وعرضها لكي يتناسب مع العنصر وتحافظ علي الابعاد الاساسية لها وهي الطول والعرض واذا لم يغطي العنصر باكلمه فانها تترك فراغ حولها
+
+
+- background-attatchment => scroll هي تستخدم للتحكم في صورة خلفية العنصر اثناء عمل المستخدم
+- default value => scroll => في حالة كان التمرير داخل العنصر نفسه فان الصورة تظل ثابته وفي حالة تمرير الصفحة نفسها فان الصورة تتحرك مع العنصر
+-  fixed => في حالة كان التمرير داخل العنصر نفسه فان الصورة تظل ثابته وفي حالة تمرير الصفحة نفسها فان الصورة تظل ايضا ثابتة مع العنصر
+-  local => في حالة كان التمرير داخل العنصر نفسه فان الصورة تتحرك  وفي حالة تمرير الصفحة نفسها فان الصورة تتحرك مع العنصر
+- background-origin => The CSS background-origin property specifies where the background image is positioned.
+- default value => padding-box => تعني ان الصورة سوف تبدا من عند الهوامش الداخلية
+- border-box => وهي تعني ان الصورة سوف تبدامن عند الحدود
+- content-box => تعني ان الصورة سوف تبدا من عند الحافة الخارجية لمحتوي العنصر
+- background-clip => The CSS background-clip property specifies the painting area of the background. هي تحدد اين سوف تنتهي او تقص صورة او لون خلفية العنصر
+- default value => padding-box => تعني ان الصورة سوف تنتهي  عند الهوامش الداخلية
+- content-box => تعني ان الصورة سوف تنتهي  عند الحافة الخارجية لمحتوي العنصر
+- content-box => تعني ان الصورة سوف تنتهي من عند الحافة الخارجية لمحتوي العنصر

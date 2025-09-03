@@ -581,3 +581,36 @@ Example : prodect id
 - justify =>  The last line is justified as the rest of the lines
 - start =>  The last line is aligned at the start of the line
 - end =>  The last line is aligned at the end of the line
+<br>
+
+ *vretical-algin*
+
+- used to align elements vertically. often used to (inline elements => span - a - strong or image )
+ - Default value is baseline
+ - text-top
+ - text-bottom
+ - sub
+ - sup
+
+   <br>
+
+*direction*
+
+- used to determine direction of page.
+  
+- Defualt value ltr
+- rtl
+- auto
+
+   <br>
+
+**text-decoration**
+
+- is used to control the appearance of decorative lines on text.
+
+ *text-decoration-line*
+
+- none => Default value. Displays no decoration line
+- underline => The decoration line is displayed under the text
+- overline => The decoration line is displayed over the text
+- line-through => The decoration line is displayed through the text

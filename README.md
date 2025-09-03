@@ -424,6 +424,19 @@ Example : prodect id
 - min-height property => Specifies the minimum height that can be reached. max-height => open
 - max-height property => Specifies the maximum height that can be reached. min-height => open
 
+<br>
+
+*Total width*
+
+- Total element width = width + left padding + right padding + left border + right border.
+
+
+<br>
+
+*Total height*
+
+- Total element height = height + top padding + bottom padding + top border + bottom border
+
 **Function**
 
 - calc() => هي تقبل قيمتين ويتم عمل عليهم عمليات حسابية لاخذ القيمة المناسبة
@@ -546,3 +559,25 @@ Example : prodect id
   - to gradient any elements using => background-image : Linear Gradients( ) or Radial Gradients( ) or Conic Gradients( ) . <br>
 
   *Linear Gradients( )*
+
+
+
+  ## texts in CSS ?
+
+ *text align*
+
+ - ( left - right - center - justify )
+
+   <br>
+   
+ *Text Align Last*
+ 
+- The text-align-last property specifies how to align the last line of a text.
+
+- auto =>  Default value. The last line is justified and aligned left
+- left => The last line is aligned to the left
+- right =>  The last line is aligned to the right
+- center =>  The last line is center-alignedt
+- justify =>  The last line is justified as the rest of the lines
+- start =>  The last line is aligned at the start of the line
+- end =>  The last line is aligned at the end of the line
